@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Linea {
+    color: black;
+}
+
+.box-header {
+    display: flex;
+    background-color: #192155;
+    height: 55px;
+}
+
+.image-Logo {
+    width: 12%;
+    margin-left: 12px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.List {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 190px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+}
+
+ul li {
+    text-decoration-color: fuchsia;
+}
+
+.Button-Candidati {
+    width: 10%;
+    background-color: #0ff;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.italia-img {
+    width: 3%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 220px;
+    cursor: pointer;
+}
+
+.first-box {
+    height: 80vh;
+    background-color: #192155;
+}
+
+.h1-container {
+    color: white;
+    margin-top: 2px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+.Paragraph {
+    color: white;
+    margin-top: 10px;
+    margin-left: 28px;
+    font-size: 22px;
+}
+
+.List2 {
+    color: white;
+    margin-left: 45px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.List2> ul li {
+    text-decoration-color: fuchsia;
+}
+
+/* .h1-container img {
+
+} */
+
+.second-box {
+    height: 100vh;
+    background-color: #192155;
+}
+
+.second-box h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.second-box p {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-collider1 {
+    position: absolute;
+    display: inline-block;
+
+    background: linear-gradient(46.03deg,#101023 14.21%,#192155 83.82%),
+                linear-gradient(90deg,#2d27df 0%,#cb2376 100%);     /* Border */
+    background-repeat: no-repeat;
+    border: 3px solid transparent;
+    background-origin: padding-box, border-box;
+
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 20%;
+    height: 30%;
+}
+
+.box-collider1 h1 {
+    position: relative;
+    margin-top: 20px;
+}
+
+.SpanH1 {
+    font-size: large;
+    font-weight: bold;
+}
+
+.SpanP {
+    color: white;
+    margin-left: 5px;
+}
+
+.third-box {
+    height: 120vh;
+    background-color: #192155;
+}
+
+.Title h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Title p {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.box {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+}
+
+.sotto-box {
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+    height: 300px;
+    background: white;
+}
+
+.four-box {
+    height: 120vh;
+    background-color: #192155;
+    display: flex;
+}
+
+.box-container1 {
+    color: white;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.box-container1 h5 , h3 {
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.box-container1 p {
+    padding: 20px;
+    font-weight: lighter;
+}
+
+.box-container2 {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.input {
+    width: 300px;
+    height: 300px;
+}
+
+.box-container2 h6 {
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+label {
+    color: white;
+    display: block;
+}
+
+em {
+    display: block;
+    color: white;
+}
+
+.box-container2 span {
+    color: white;
+}
+
+.Invia {
+    align-content: center;
+}
+
+.five-box {
+    height: 50vh;
+    background: linear-gradient(to left , fuchsia, blue);
+    text-align: center;
+}
+
+.box-container-five h1 , p {
+    padding: 10px;
+    color: white;
+}
+
+footer {
+    background: #060364;
+    width: 100%;
+    height: 100vh;
+}
+
+.box-footer img {
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 160px;
+}
